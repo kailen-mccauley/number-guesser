@@ -1,3 +1,4 @@
+#By: Kailen McCauley
 import random
 def lessTen(genNum):
     #this function test if the number of digits the user entered is greater than 10. 
