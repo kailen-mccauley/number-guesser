@@ -16,7 +16,6 @@ def generateNum(numDigits):
         else:
             strNum=strNum+digit
             current+=1
-    print(strNum) #REMOVE THIS PRINT WHEN YOU FINISH THE WHOLE PROGRAM
     return strNum 
     
  
@@ -55,7 +54,7 @@ def guessTracker(genNum,a):
         print("Sorry, you ran out of guesses.")
     
 def main():
-    yn=str(input("Do you want to play? Type yes or no. "))
+    yn=str(input("Do you want to play number guesser? Type yes or no. "))
     while yn=="yes":
         genNum=int(input("Please enter the number of digits of the number: "))# takes the number of digits the user wants
         b=lessTen(genNum)#checks to make sure the number of digits that the user wants is less than 10.
